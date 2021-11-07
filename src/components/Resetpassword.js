@@ -2,7 +2,7 @@ import React from "react";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import "./Register.css";
-import Navbar_login from "./Navbar_login";
+import Navbar_login from "./Navbar_Login";
 import axios from "axios";
 import Textfield from "./Textfield";
 import env from "./settings";

@@ -1,11 +1,20 @@
 /*BACKGROUNG IMAGE CSS*/
 .Register-image {
-    background: rgba(0, 0, 0, 0.7);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover !important;
-    background-blend-mode: darken;
-    
+    background-image: linear-gradient(
+    to left bottom,
+    #f6f4f9,
+    #f1eff7,
+    #edeaf4,
+    #e7e6f2,
+    #e2e1f0,
+    #dee1f0,
+    #dbe1f0,
+    #d7e1f0,
+    #d6e5f1,
+    #d7e9f1,
+    #daedf0,
+    #dff0ef
+  );
   }
 
 
@@ -21,10 +30,11 @@
     display: grid;
     place-items: center;
     width: 300px;
-    background-color: rgba(12, 245, 32, 0.685);
+    background-color: rgb(173, 240, 240);
     padding: 0.5em;
     border-radius: 0.5em;
-   /* background-color:rgba(0, 0, 0, 0.7); */
+    font-weight: 600;
+    color: rgb(39, 7, 116);
 }
 
 /*css for input fields*/
