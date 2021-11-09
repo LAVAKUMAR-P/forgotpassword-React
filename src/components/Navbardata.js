@@ -1,11 +1,7 @@
 
 export const NavbarData=[
     {
-        title : "Register",
-        path:"/register",
-    },
-    {
-        title : "Login",
-        path:"/",
+        title : "welcome to home",
+        path:"Logout",
     },
 ]

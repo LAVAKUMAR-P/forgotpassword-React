@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Home from './components/Home';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Switch>
          <Route path="/" component={Login} exact={true}/>
          <Route path="/register" component={Register} exact={true}/>
+         <Route path="/home" component={Home} exact={true}/>
          <Route path="/forgetpassword" component={Forgotpassword} exact={true}/>
          <Route path="/password-reset/:userId/:token" component={Resetpassword} exact={true}/>
      </Switch>
