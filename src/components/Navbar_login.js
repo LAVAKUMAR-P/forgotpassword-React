@@ -7,7 +7,7 @@ import { NavbarData_login } from './Navbardata_data';
 
 
 
-export default function Navbar_login() {
+export default function Navbar_Login() {
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
