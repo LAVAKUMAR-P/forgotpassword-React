@@ -21,7 +21,7 @@ function Login() {
 
   return (
     <>
-      <Navbar_login />
+       <Navbar_login />
       <div className="image">
         <div className="L-container-position">
           <Formik
